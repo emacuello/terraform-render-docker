@@ -5,3 +5,8 @@ variable "RENDER_API_KEY" {
 variable "env_file_content" {
   default = file(".env")
 }
+
+variable "RENDER_OWNER_ID" {
+  description = "The owner ID for Render"
+  type        = string
+}
